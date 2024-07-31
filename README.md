@@ -1,9 +1,10 @@
 # reversed_hashes
 
 
-Objective:
+Objective:   
 To identify and exclude transaction hashes with failed traces due to reversed calls, ensuring consistency in data between Flipside and Dune Analytics.
-Background:
+
+Background:   
 Transaction hashes may be labelled as successful in ethereum.core.fact_traces table on Flipside but failed in ethereum.traces table on Dune Analytics because some of the calls in the hashes were reversed. This discrepancy can affect data analysis accuracy. To address this, hashes with reversed calls should be excluded from calculations.
 
 
