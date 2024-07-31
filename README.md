@@ -32,13 +32,6 @@ Daily comparison of hashes:
 
 Note: Exclude the current date from the comparison due to differences in table update times across platforms
 
-Manual Check in Explorer:
-- Check each hash in to_check_date.csv using a blockchain explorer to determine if the hash has reversed status.
-- If a hash has reversed status, add it to an exclusion list.
-
-Update Queries:
-- Modify the main query on Flipside to exclude hashes from the exclusion list.
-- Ensure that the updated query is used for future comparisons and calculations.
 
 
 
