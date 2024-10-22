@@ -9,13 +9,13 @@ Transaction hashes may be labelled as successful in ethereum.core.fact_traces ta
 
 
 Requirements:
-
-    Dune Analytics account, Flipside account, python, pip, jupyter notebook (any other working environment)
+- Dune Analytics account;
+- Flipside account;
+- python, pip, jupyter notebook (any other working environment)
 
 Instruction:
-
-    create and activate a virtualenv
-    clone the notebook
+- create and activate a virtualenv
+- clone the notebook
   
 
 Working notebook
